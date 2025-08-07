@@ -7,7 +7,8 @@ This project demonstrates how to utilize **Excel** for HR data analysis and dash
 
 ## 🧰 Tools Used
 - Microsoft Excel
-  - VLOOKUP 
+  - VLOOKUP
+  - Conditional Formatting
   - PivotTables
   - Charts 
 
@@ -22,7 +23,16 @@ Contains the raw employee dataset with the following fields:
 - `Gender`
 - `Department_ID`
 - `Salary`
-- `Department_Name` (retrieved using VLOOKUP or merged)
+- `Department_Name` (retrieved using VLOOKUP)
+
+#### ✅ Conditional Formatting
+Salary cells have been formatted using the following rules:
+- **Above €6,000** → highlighted in **green**
+- **Below €4,000** → highlighted in **red**
+
+This highlights outliers and helps quickly spot high or low earners.
+
+---
 
 ### 🔹 Sheet: `Departments`
 Lookup table for:
@@ -38,11 +48,20 @@ Includes key PivotTable outputs:
 
 ---
 
+## 🔍 VLOOKUP Implementation
+
+The `Department_Name` column in `Employees` was created with:
+```excel
+=VLOOKUP(D2, Departments!$A$2:$B$6, 2, FALSE)
+
+---
+
 
 ## 🧠 What I Achieved
 - Structure clean HR data for analysis
 - PivotTables to summarize salary data
 - Mapping department names using lookup logic
+-Applying conditional formatting to highlight insights
 - Planning an HR dashboard to display KPIs
 
 
