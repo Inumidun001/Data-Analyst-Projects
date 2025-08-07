@@ -56,6 +56,11 @@ The `Department_Name` column in `Employees` was created with:
 
 ---
 
+## 📷 Dashboard Preview
+
+![Dashboard Screenshot](screenshots/dashboard_summary.png)
+
+---
 
 ## 🧠 What I Achieved
 - Structure clean HR data for analysis
