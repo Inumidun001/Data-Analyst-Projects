@@ -56,14 +56,12 @@ The `Department_Name` column in `Employees` was created with:
 
 ---
 
-
 ## 🧠 What I Achieved
 - Structure clean HR data for analysis
 - PivotTables to summarize salary data
 - Mapping department names using lookup logic
 -Applying conditional formatting to highlight insights
 - Planning an HR dashboard to display KPIs
-
 
 ---
 
