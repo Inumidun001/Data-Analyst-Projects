@@ -48,13 +48,6 @@ Includes key PivotTable outputs:
 
 ---
 
-## 🔍 VLOOKUP Implementation
-
-The `Department_Name` column in `Employees` was created with:
-```excel
-=VLOOKUP(D2, Departments!$A$2:$B$6, 2, FALSE)
-
----
 
 ## 🧠 What I Achieved
 - Structure clean HR data for analysis
@@ -62,6 +55,14 @@ The `Department_Name` column in `Employees` was created with:
 - Mapping department names using lookup logic
 -Applying conditional formatting to highlight insights
 - Planning an HR dashboard to display KPIs
+
+---
+
+## 🔍 VLOOKUP Implementation
+
+The `Department_Name` column in `Employees` was created with:
+```excel
+=VLOOKUP(D2, Departments!$A$2:$B$6, 2, FALSE)
 
 ---
 
